@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "slides": {
+      "type": "accordion",
+      "items": {
+        "fields": {
+          "title": {
+            "type": "text"
+          },
+          "link": {
+            "type": "url"
+          },
+          "image": {
+            "type": "imagecrop",
+            "cropper": {
+              "aspectRatio": 3
+            }
+          },
+          "content": {
+            "type": "ckeditor",
+            "configset":"basic"
+          },
+          "posleft": {
+            "type": "text"
+          },
+          "postop": {
+            "type": "text"
+          }
+        }
+      }
+    },
+    "textcolour": {
+      "type": "text"
+    },
+    "height": {
+      "type": "text"
+    },
+    "mobileimage": {
+      "type": "imagecrop",
+      "cropper": {
+        "aspectRatio": 1
+      }
+    },
+    "mobilelink": {
+      "type": "url"
+    }
+  }
+}

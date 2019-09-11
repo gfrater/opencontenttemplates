@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "properties": {
+    "slides": {
+      "type": "array",
+      "title": "Slides",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "link": {
+            "type": "string",
+            "title": "Link"
+          },
+          "image": {
+            "type": "string",
+            "title": "Image"
+          },
+          "content": {
+            "type": "string",
+            "title": "Content"
+          },
+          "posleft": {
+            "type": "string",
+            "title": "Position Left"
+          },
+          "postop": {
+            "type": "string",
+            "title": "Position Top"
+          }
+        }
+      }
+    },
+    "textcolour": {
+      "type": "string",
+      "title": "Text Colour"
+    },
+    "height": {
+      "type": "string",
+      "title": "Height"
+    },
+    "mobileimage": {
+      "type": "string",
+      "title": "Mobile Image (Replaces slider on mobile)"
+    },
+    "mobilelink": {
+      "type": "string",
+      "title": "Mobile Link (for mobile image)"
+    }
+  }
+}
